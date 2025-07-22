@@ -1,0 +1,17 @@
+{
+  "name": "crypto-trading-calculator",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "A modern crypto liquidation and profit/loss calculator",
+  "scripts": {
+    "start": "node server-production.js",
+    "build": "echo 'Build completed - using pre-built files'"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
